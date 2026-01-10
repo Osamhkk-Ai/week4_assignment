@@ -32,10 +32,11 @@ The classes included are:
 
 ## Data Preprocessing and Augmentation
 
+The dataset contains a total of **1,658 images** distributed across 9 date varieties, split into **1,326 images for training** and **332 images for validation**.
+
 Before training, the following preprocessing steps were applied:
 - Image resizing to a fixed input size
 - Normalization of pixel values
-- Splitting the dataset into training and validation sets
 
 To improve generalization and reduce overfitting, **data augmentation** was applied during training.  
 This helps the model become more robust to variations such as changes in orientation and lighting.
