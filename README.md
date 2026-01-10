@@ -77,9 +77,9 @@ To better understand model performance across all classes, a **Confusion Matrix*
 
 Below is the confusion matrix visualization showing the model’s predictions versus the true labels:
 
-```
+
 [ CONV.png ]
-```
+
 
 The confusion matrix shows strong diagonal dominance, indicating that most samples were classified correctly.  
 Minor misclassifications occur mainly between visually similar date varieties, which is expected in fine-grained image classification tasks.
